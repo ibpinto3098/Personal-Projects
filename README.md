@@ -11,7 +11,7 @@
 <p>Each project will have its own folder included within it are the following:</p>
 <ul>
   <li>A README.md file that will be divided into three sections:<br>
-    <ol><strong>1. Introduction : </strong>This will show a brief explanation of the dataset including the different columns present in the dataset</ol>
+    <ol><strong>1. Introduction : </strong>This will show a brief explanation of the dataset and discuss about the goals for the study</ol>
     <ol><strong>2. Summary : </strong>This will show a quick summary showing important findings and analysis that is essential for the study</ol>
     <ol><strong>3. Extensive Discussion : </strong>This will show the more detailed analysis on how I came up the various conclusions from the study</ol>
   </li>
