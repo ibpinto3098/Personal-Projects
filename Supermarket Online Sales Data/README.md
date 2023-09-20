@@ -1,7 +1,7 @@
 <div align = 'center';'><h1>Supermarket Sales Analysis</h1></div>
 <p><h2>Introduction</h2></p>
 <div align='justify';'><p>The dataset provided was sourced from <a href = "https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting">Kaggle</a>. Initially, the dataset was intended to forecast the sales of next seven days, however I opted to simply do an extensive analysis of the dataset trying to find possible problems that can be extracted from the file. Below you will be able to see a discussion showing all the goals of the study and the important insights I was able to obtain, and finally a more extensive discussion of my thought process going through the file.</p>
-<h3>Goals:</h3>
+<h2>Goals:</h2>
 <p>The goals of the study are as follows:<br></p>
 <ol>
   <li>Determine the Sales Trend over the years</li>
@@ -9,10 +9,10 @@
   <li>Determine the most commonly used shipping mode by consumers</li>
   <li>Dig deeper into the dataset to find possible inights and problems</li>
 </ol>
-<h3>Summary</h3>
+<h2>Summary</h2>
 <p>In this dataset, I was able to determine the Sales Trend over time and has shown that it has been increasing over time. There are three categories namely, Technology, Office Supplies, and Furniture, wherein the Technology category is the supermarket's best selling type of product. Over the years, the Corporate sector has shown an increasing buying trend for the supermarket which the supermarket should capitalize as these sector specifically has the higher buying power compared to the 2 other categories, Consumer, and Home Office customer types. In terms of locations, a big part of the sales volume are mainly in the United States, specifically California, New York, and Texas. The company may move further to try and penetrate other locations.  One of the areas for analysis is the different Shipping Modes the supermarket offers namely, Standard Class, Second Class, First Class, and Same day delivery.  Through the study, I was able to compare these four different types' lead times and was able to find one issue that the supermarket may face.  There are Same day deliveries that were not able to deliver during the day. Amongst those order, I delved deeper to find what may cause this and I was able to see that those that were not delivered the same day were Furnitures.  I compared the average quantity ordered that was successfuly ordered the same day, and those that were late and saw a large difference in volume. The supermarket may look deeper into this situation to find solutions in order to prevent this.</p>
 
-<h3>Extensive Discussion</h3>
+<h2>Extensive Discussion</h2>
 <h4>Sales Analysis</h4>
 <p>The dataset provided various information regarding the sales of products such as Order Date, Shipping Date, Customer Type, Product Category, Product Name, and finally Sales volume. Firstly, we have extracted the Sales Trend over the years to see the supermarket's overall behavior. On top of this, we have also created a graph that shows the trend per category. There are three different product categories: <strong>Technology, Furniture, and Office Supplies</strong>.  The findings was that the trend is increasing overtime across the three different categories wherein the Technology Category has garnered the highest amount of sales, whilst Furnitures has the lowest amount. Overall, the supermarket has sold over 2,260,000 products across the years and counting.
 </p>
