@@ -12,12 +12,9 @@
     </ul>
   <br>
   <li>Create a model using Time Series Forecasting through XGBoost that can answer the following questions:</li><br>
-    <ul>
-      <li>What is the expected sales for the next 20 days?</li>
-      <li>What are the most important factors for forecasting?</li>
-    </ul>
 </ol>
 <h2>Summary</h2>
+<p>In this study, I was able to explore the dairy sales trend where it has only been averaging throughout the years with major spikes in certain days.  On top of this, I was able to see which brands and products are the most sought of by customers in various locations.  You will see that even though some brands have the highest quantity sold, they may not be the leading brand for certain products.  They mainly have the volume and capacity to produce various products thus increasing their sales volume. I have also looked into the possible variables that can categorize farm sizes but due to the nature of the dataset there are no clear difference across the 3 different categories of farm sizes (Large, Medium, Small). In the study, you will be also be able to see which customers have the highest monetary amount and quantity amount.  Lastly, I was able to create a model that can forecast the next 20 days of the dataset.</p>
 <h2>Extensive Discussion - Exploratory Data Analysis</h2>
 <h4>What is the dairy sales trend?</h4>
 <p>First I want to see the overall trend of dairy sales. I have created a graph to analyze it easier which can be seen below.</p>
@@ -43,6 +40,12 @@
 <p>I have created two bar plots showing which locations has the highest monetary amount, and the highest quantity amount. From here you could see that Chandigarh has the highest monetary amount of goods sold, while Delhi has the highest quantity amount.</p>
 
 <h2>Extensive Discussion - Time Series Forecasting</h2>
-
-
+<p>Before I create the model, I have created a dataframe consisting of the Date and Dairy Sold. Afterwards, I have created a Time Series Split with 5 different folds.  This is so that I would be able to train the model using different sets of data thus can make the model perform better. The following different folds can be seen in the figure below.</p>
+<img src="https://github.com/ibpinto3098/Personal-Projects/assets/144035560/46613270-7e87-4e3c-9245-704ece2474e1"/>
+<p>Once I have splitting the models, I can start to create the model by training it firstly on my train dataset. I have used the XGBoost regression method for this with the following parameters:</p>
+<img src="https://github.com/ibpinto3098/Personal-Projects/assets/144035560/8a0c555f-def0-4b88-ba90-1254424ebf6a"/>
+<p>Through this I was able to come up with 5 different RMSE scores as shown also below:</p>
+<img src="https://github.com/ibpinto3098/Personal-Projects/assets/144035560/4f17d200-67ae-4dfb-833c-7421318cc328"/>
+<p>To make sense out of this, I want to compare the generated RMSE scores with the standard deviation. An ideal situation of the model would be when the RMSE is lower than the standard deviation which in this case it is.  This could entail the model created can be reliable. Now I am able to forecast the next 20 days through using the model as can be seen below. </p>
+<img src="https://github.com/ibpinto3098/Personal-Projects/assets/144035560/32dabdb3-b014-4ead-b4fe-bddedcc11a7f"/>
 </div>
