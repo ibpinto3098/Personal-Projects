@@ -3,8 +3,8 @@
  I have a Bachelors Degree in Industrial Engineering and a Masters Degree in Supply Chain thus the reason why I want to focus in these areas. My goal for this repository is to display my growing skills and my thought process throughout these various areas and projects</p></div>
 <h2>List of Projects:</h2>
 <ol>
-  <li><h4>Supermarket Online Sales Analysis:</h4><p>In this project, you will be able to see how I explored the dataset to find trends, and consumer behavior. I have also dug deeper to find possible issues and problems that the supermarket is experiencing that may need further attention. </p>
-</li>
+  <li><h4>Supermarket Online Sales Analysis:</h4><p>In this project, you will be able to see how I explored the dataset to find trends, and consumer behavior. I have also dug deeper to find possible issues and problems that the supermarket is experiencing that may need further attention. </p></li>
+ <li><h4>Dairy Sales Analysis:</h4><p>In this project, I have analyzed the overall trend of dairy sales and product popularity.  I have also created a Machine Learning program to forecast the sales of dairy for the next 20 days.</p></li>
 </o>
 
 <h2>Repository Structure:</h2>
