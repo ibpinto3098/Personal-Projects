@@ -5,6 +5,7 @@
 <ol>
   <li><h4>Supermarket Online Sales Analysis:</h4><p>In this project, you will be able to see how I explored the dataset to find trends, and consumer behavior. I have also dug deeper to find possible issues and problems that the supermarket is experiencing that may need further attention. </p></li>
  <li><h4>Dairy Sales Analysis:</h4><p>In this project, I have analyzed the overall trend of dairy sales and product popularity.  I have also created a Machine Learning program to forecast the sales of dairy for the next 20 days.</p></li>
+ <li><h4>Covid 19 on Developed or Developing Countries Webscraping Project:</h4><p> In this project, I have conducted webscraping methods to create my own dataset to see the effects of being a developed country and a developing country compared to one another. You will see in this project how I cleaned and extrapolated my own dataset to come up with insights on these statistics.</p></li>
 </o>
 
 <h2>Repository Structure:</h2>
